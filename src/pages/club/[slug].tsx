@@ -1,6 +1,7 @@
 import ClubHistogram from '@/components/histogram/ClubHistogram';
 import LabeledRow from '@/components/gantt/LabeledRow';
-import Stat from '@/components/Stat';
+import Stat from '@/components/stat/Stat';
+import StatRow from '@/components/stat/StatRow';
 import { clubSlugs, ClubStats, getClubStats } from '@/data/clubStats';
 import { formatYearClusters } from '@/data/yearUtil';
 import { createGetStaticPaths, createGetStaticProps } from '@/util/nextUtil';
@@ -21,20 +22,20 @@ export default function ClubPage({ data }: Props) {
     return (
         <div className={styles.container}>
             <h1 className={styles.pageTitle}>{data.name}</h1>
-            <div className={styles.statGroup}>
+            <StatRow>
                 <Stat
                     label="Years on Team"
                     value={formatYearClusters(data.years.clusters)}
                 />
-            </div>
-            <div className={styles.statGroup}>
+            </StatRow>
+            <StatRow>
                 <Stat label="Total Years" value={data.yearsRepresented} />
                 <Stat
                     label="Total Athletes"
                     value={data.countDistinctAthletes}
                 />
                 <Stat label="Athlete Years" value={data.totalAthleteYears} />
-            </div>
+            </StatRow>
             <h2>Representation</h2>
             <ClubHistogram {...data} />
             <h2>Timeline</h2>

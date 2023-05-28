@@ -1,6 +1,7 @@
-import CallOutList from '@/components/athlete/CallOutList';
+import CallOutList from '@/components/stat/CallOutList';
 import LabeledRow from '@/components/gantt/LabeledRow';
-import Stat from '@/components/Stat';
+import Stat from '@/components/stat/Stat';
+import StatRow from '@/components/stat/StatRow';
 import { getAthleteStats } from '@/data/athleteStats';
 import { Row } from '@/data/source/types';
 import {
@@ -79,10 +80,10 @@ export default function YearTeamPage({ data }: Props) {
                     for the {year} - {year + 1} season
                 </div>
             </div>
-            <div className={styles.statGroup}>
+            <StatRow>
                 <Stat label="Years of Past Experience" value={pastYears} />
                 <Stat label="Years of Future Experience" value={futureYears} />
-            </div>
+            </StatRow>
             <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <div>
                     <h2>Seniors</h2>

@@ -49,10 +49,10 @@ export interface AthleteStats extends PersonName, NullableByLevel<YearStats> {
     levelByYear: Record<string | number, Level>;
 }
 
-export interface AthleteClub extends YearStats, Named {}
+export interface AthleteClubStats extends YearStats, Named {}
 
 export interface DetailedAthleteStats extends AthleteStats {
-    clubs: AthleteClub[];
+    clubs: AthleteClubStats[];
 }
 
 export interface RelatedAthlete {

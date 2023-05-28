@@ -1,11 +1,13 @@
-import ClubRepresented, { AthleteTeam } from '@/components/athlete/ClubRepresented';
+import AthleteClub from '@/components/stat/AthleteClub';
 import gaantStyles from '@/components/gantt/Gantt.module.css';
 import LabeledRow from '@/components/gantt/LabeledRow';
-import Stat from '@/components/Stat';
-import WrappedStatGroup from '@/components/WrappedStatGroup';
+import { AthleteTeam } from '@/components/stat/AthleteTeam';
+import Stat from '@/components/stat/Stat';
+import StatRow from '@/components/stat/StatRow';
+import WrappedStatGroup from '@/components/stat/WrappedStatGroup';
 import { athleteSlugs, getAthleteStats } from '@/data/athleteStats';
 import { mostSimilarAthletes } from '@/data/overlapScore';
-import { AthleteClub, DetailedAthleteStats, RelatedAthlete } from '@/data/types';
+import { AthleteClubStats, DetailedAthleteStats, RelatedAthlete } from '@/data/types';
 import { formatYearClusters } from '@/data/yearUtil';
 import styles from '@/styles/Page.module.css';
 import { createGetStaticPaths, createGetStaticProps } from '@/util/nextUtil';
@@ -20,11 +22,11 @@ interface Props {
     related: RelatedAthlete[];
 }
 
-function ClubsSection({ clubs }: { clubs: AthleteClub[] }) {
+function ClubsSection({ clubs }: { clubs: AthleteClubStats[] }) {
     return (
-        <WrappedStatGroup>
+        <WrappedStatGroup statSize={{ xs: 12, sm: 6, md: 4 }}>
             {sortBy(clubs, (club) => club.start).map((club) => (
-                <ClubRepresented club={club} key={club.slug} />
+                <AthleteClub club={club} key={club.slug} />
             ))}
         </WrappedStatGroup>
     );
@@ -34,13 +36,13 @@ export default function AthletePage({ data, related = [] }: Props) {
     return (
         <div className={styles.container}>
             <h1 className={styles.pageTitle}>{data.name}</h1>
-            <div className={styles.statGroup}>
+            <StatRow>
                 <Stat
                     label="Years on Team"
                     value={formatYearClusters(data.total.clusters)}
                 />
-            </div>
-            <div className={styles.statGroup}>
+            </StatRow>
+            <StatRow>
                 <Stat label="Total Years" value={data.total.yearCount} />
                 <Stat
                     label="Years Junior"
@@ -50,7 +52,7 @@ export default function AthletePage({ data, related = [] }: Props) {
                     label="Years Senior"
                     value={data.senior?.yearCount ?? 0}
                 />
-            </div>
+            </StatRow>
             <h3>Similar Careers</h3>
             <div className={gaantStyles.rowHighlight}>
                 <LabeledRow athlete={data} disableLink showYears />
@@ -67,7 +69,7 @@ export default function AthletePage({ data, related = [] }: Props) {
             <h3>Clubs Represented</h3>
             <ClubsSection clubs={data.clubs} />
             <h3>National Teams</h3>
-            <WrappedStatGroup>
+            <WrappedStatGroup statSize={{ xs: 6, sm: 4, md: 4 }}>
                 {data.total.years?.map((year) => (
                     <AthleteTeam
                         key={year}

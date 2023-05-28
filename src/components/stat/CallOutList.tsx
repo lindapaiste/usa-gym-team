@@ -1,14 +1,7 @@
-import Stat from '@/components/Stat';
+import StatBox from '@/components/stat/StatBox';
+import WrappedStatGroup from '@/components/stat/WrappedStatGroup';
 import type { Named } from '@/data/types';
-import styles from '@/styles/Page.module.css';
-import {
-    Box,
-    Button,
-    List,
-    ListItem,
-    ListItemText,
-    Typography,
-} from '@mui/material';
+import { Box, Button, List, ListItem, ListItemText, Typography } from '@mui/material';
 import { orderBy } from 'lodash';
 import Link from 'next/link';
 import { ReactNode, useState } from 'react';
@@ -54,16 +47,15 @@ export default function CallOutList<T extends Named>({
 
     return (
         <>
-            <Box className={styles.statGroup} sx={{ '& > *': { flex: 1 } }}>
+            {/* TODO: it's weird to wrap with 3... */}
+            <WrappedStatGroup statSize={{ xs: 12, sm: 6, md: 4 }}>
                 {sorted.slice(0, topN).map((athlete) => (
-                    <Link key={athlete.slug} href={`/athlete/${athlete.slug}`}>
-                        <Stat
-                            label={renderSub(athlete.stat, athlete)}
-                            value={athlete.name}
-                        />
-                    </Link>
+                    <StatBox key={athlete.slug} href={`/athlete/${athlete.slug}`}>
+                        <Typography fontSize={24}>{athlete.name}</Typography>
+                        <Typography fontSize={12}>{renderSub(athlete.stat, athlete)}</Typography>
+                    </StatBox>
                 ))}
-            </Box>
+            </WrappedStatGroup>
             {hasMore ? (
                 <Box display="flex" justifyContent="flex-end">
                     <Button onClick={() => setIsExpanded((prev) => !prev)}>
