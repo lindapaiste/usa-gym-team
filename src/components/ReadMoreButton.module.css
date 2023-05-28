@@ -1,0 +1,30 @@
+.alignRight {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    background: #10103c;
+    padding: 8px 8px 8px 16px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    transition: all 200ms;
+}
+
+.button svg {
+    color: white;
+    font-size: 20px;
+    margin-left: 4px;
+    transform: translateX(0);
+    transition: all 200ms;
+}
+
+.button:hover {
+    background: #1b1b62;
+    transform: scale(1.1);
+}
+
+.button:hover svg {
+    transform: translateX(4px);
+}

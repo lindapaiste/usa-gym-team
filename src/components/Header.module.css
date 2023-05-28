@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background: #0b0a2b;
+    padding: 12px;
+    box-shadow: 0 3px 4px 3px #000000bf;
+}
+
+.title {
+}
+
+.menu {
+    display: flex;
+}
+
+.menu > * {
+    padding: 8px;
+    margin: 4px;
+}

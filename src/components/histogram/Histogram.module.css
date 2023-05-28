@@ -1,0 +1,40 @@
+.histogram {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+.barContainer {
+    flex: 1;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+.tickContainer {
+    height: 20px;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 2px;
+    align-self: center;
+    margin-top: 3px;
+}
+
+.tickLine {
+    height: 5px;
+    width: 2px;
+    background: #ffffff66;
+}
+
+.tickLabel {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.tooltip {
+    position: absolute;
+}

@@ -1,0 +1,26 @@
+.container {
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+    background: #10103c;
+    flex: 1;
+    padding: 12px;
+    margin: 12px;
+    transition: all 200ms;
+}
+
+a:hover .container {
+    background: #1b1b62;
+    transform: scale(1.1);
+}
+
+.value {
+    font-size: 30px;
+}
+
+.label {
+    font-size: 11px;
+}

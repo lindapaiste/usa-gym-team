@@ -1,0 +1,41 @@
+.chart {
+    position: relative;
+}
+
+.quadLine {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: #10103c;
+    width: 1px;
+}
+
+.rowHighlight {
+    background: #10103c;
+    padding: 8px 10px;
+    margin: 0 -10px;
+    border-radius: 8px;
+}
+
+.labeledRow {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.rowLabel {
+    width: 20%;
+}
+
+.labelMain {
+}
+
+.labelSub {
+    font-weight: 300;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.rowBody {
+    width: 80%;
+}
