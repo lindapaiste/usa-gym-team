@@ -1,5 +1,6 @@
 import { groupBy, mapValues } from 'lodash';
-import { rows } from './source';
+import { createSlug, rows } from './source';
+import results from './source/results.json';
 import type {
     AthleteStats,
     DetailedAthleteStats,
@@ -54,7 +55,11 @@ const createDetailedAthleteStats = (rows: Row[]): DetailedAthleteStats => {
     }));
     return {
         ...createAthleteStats(rows),
-        clubs
+        clubs,
+        results:
+            results.find(
+                (o) => createSlug(o.facts.Name) === rows[0].athleteSlug
+            )?.results ?? null,
     };
 };
 

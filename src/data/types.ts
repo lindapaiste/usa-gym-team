@@ -53,6 +53,7 @@ export interface AthleteClub extends YearStats, Named {}
 
 export interface DetailedAthleteStats extends AthleteStats {
     clubs: AthleteClub[];
+    results: any[] | null; // TODO;
 }
 
 export interface RelatedAthlete {

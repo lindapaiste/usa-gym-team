@@ -1,4 +1,5 @@
 import ClubRepresented, { AthleteTeam } from '@/components/athlete/ClubRepresented';
+import ResultsTable from '@/components/athlete/ResultsTable';
 import gaantStyles from '@/components/gantt/Gantt.module.css';
 import LabeledRow from '@/components/gantt/LabeledRow';
 import Stat from '@/components/Stat';
@@ -76,6 +77,12 @@ export default function AthletePage({ data, related = [] }: Props) {
                     />
                 ))}
             </WrappedStatGroup>
+            {data.results ? (
+                <>
+                    <h3>Results</h3>
+                    <ResultsTable results={data.results} />
+                </>
+            ) : null}
         </div>
     );
 }

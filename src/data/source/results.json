@@ -1,0 +1,792 @@
+[
+    {
+        "results": [
+            {
+                "year": "2022",
+                "competition": "NCAA Women's Gymnastics Championships",
+                "city": "Fort Worth, Texas",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "7",
+                        "event": "Team"
+                    }
+                ]
+            },
+            {
+                "year": "2019",
+                "competition": "American Classic",
+                "city": "Salt Lake City, Utah",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "1",
+                        "event": "UB"
+                    },
+                    {
+                        "rank": "3",
+                        "event": "AA"
+                    },
+                    {
+                        "rank": "4",
+                        "event": "VT",
+                        "tie": true
+                    },
+                    {
+                        "rank": "4",
+                        "event": "BB"
+                    },
+                    {
+                        "rank": "6",
+                        "event": "FX"
+                    }
+                ]
+            },
+            {
+                "year": "2018",
+                "competition": "U.S. Gymnastics Championships",
+                "city": "Boston, Mass.",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "8",
+                        "event": "UB"
+                    }
+                ]
+            },
+            {
+                "year": "2018",
+                "competition": "GK U.S. Classic",
+                "city": "Columbus, Ohio",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "7",
+                        "event": "UB"
+                    },
+                    {
+                        "rank": "7",
+                        "event": "FX",
+                        "tie": true
+                    }
+                ]
+            },
+            {
+                "year": "2018",
+                "competition": "American Classic",
+                "city": "Salt Lake City, Utah",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "2",
+                        "event": "AA"
+                    },
+                    {
+                        "rank": "3",
+                        "event": "VT"
+                    },
+                    {
+                        "rank": "3",
+                        "event": "BB"
+                    },
+                    {
+                        "rank": "3",
+                        "event": "FX"
+                    }
+                ]
+            },
+            {
+                "year": "2017",
+                "competition": "P&G Championships",
+                "city": "Anaheim, Calif.",
+                "division": "",
+                "results": []
+            },
+            {
+                "year": "2017",
+                "competition": "U.S. Classic",
+                "city": "Chicago, Ill.",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "5",
+                        "event": "BB"
+                    },
+                    {
+                        "rank": "5",
+                        "event": "FX",
+                        "tie": true
+                    },
+                    {
+                        "rank": "6",
+                        "event": "AA",
+                        "tie": true
+                    }
+                ]
+            },
+            {
+                "year": "2016",
+                "competition": "P&G Championships",
+                "city": "St. Louis, Mo.",
+                "division": "Jr. Div.",
+                "results": [
+                    {
+                        "rank": "3",
+                        "event": "BB"
+                    },
+                    {
+                        "rank": "4",
+                        "event": "AA"
+                    },
+                    {
+                        "rank": "4",
+                        "event": "FX"
+                    },
+                    {
+                        "rank": "8",
+                        "event": "UB"
+                    }
+                ]
+            },
+            {
+                "year": "2016",
+                "competition": "Secret U.S. Classic",
+                "city": "Hartford, Conn.",
+                "division": "Jr. Div.",
+                "results": []
+            },
+            {
+                "year": "2015",
+                "competition": "P&G Championships",
+                "city": "Indianapolis, Ind.",
+                "division": "Jr. Div.",
+                "results": [
+                    {
+                        "rank": "7",
+                        "event": "UB",
+                        "tie": true
+                    }
+                ]
+            },
+            {
+                "year": "2015",
+                "competition": "Secret U.S. Classic",
+                "city": "Chicago, Ill.",
+                "division": "Jr. Div.",
+                "results": [
+                    {
+                        "rank": "5",
+                        "event": "FX"
+                    }
+                ]
+            },
+            {
+                "year": "2014",
+                "competition": "Secret U.S. Classic",
+                "city": "Chicago, Ill.",
+                "division": "Jr. Div.",
+                "results": []
+            },
+            {
+                "year": "2014",
+                "competition": "American Classic",
+                "city": "Huntsville, Texas",
+                "division": "Jr. Div.",
+                "results": [
+                    {
+                        "rank": "5",
+                        "event": "FX"
+                    },
+                    {
+                        "rank": "8",
+                        "event": "BB",
+                        "tie": true
+                    }
+                ]
+            }
+        ],
+        "facts": {
+            "Name": "Shania Adams",
+            "Birthdate": "10/20/2001",
+            "Program": "Women's Artistic",
+            "Level": "Senior",
+            "Current Residence": "Dublin, OH",
+            "Head Coach": "Kittia Carpenter",
+            "Other Coaches": "Fernando Villa"
+        }
+    },
+    {
+        "results": [
+            {
+                "year": "2022",
+                "competition": "OOFOS U.S. Gymnastics Championships",
+                "city": "Tampa, Fla.",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "2",
+                        "event": "BB"
+                    }
+                ]
+            },
+            {
+                "year": "2022",
+                "competition": "U.S. Classic",
+                "city": "Salt Lake City, Utah",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "6",
+                        "event": "FX"
+                    },
+                    {
+                        "rank": "9",
+                        "event": "AA"
+                    }
+                ]
+            },
+            {
+                "year": "2022",
+                "competition": "Winter Cup",
+                "city": "Frisco, Texas",
+                "division": "",
+                "results": []
+            },
+            {
+                "year": "2021",
+                "competition": "U.S. Gymnastics Championships",
+                "city": "Fort Worth, Texas",
+                "division": "",
+                "results": []
+            },
+            {
+                "year": "2021",
+                "competition": "GK U.S. Classic",
+                "city": "Indianapolis, Ind.",
+                "division": "",
+                "results": []
+            },
+            {
+                "year": "2021",
+                "competition": "American Classic",
+                "city": "Indianapolis, Ind.",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "8",
+                        "event": "BB"
+                    }
+                ]
+            },
+            {
+                "year": "2021",
+                "competition": "Winter Cup",
+                "city": "Indianapolis, Ind.",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "6",
+                        "event": "AA"
+                    },
+                    {
+                        "rank": "6",
+                        "event": "FX"
+                    }
+                ]
+            },
+            {
+                "year": "2019",
+                "competition": "U.S. Gymnastics Championships",
+                "city": "Kansas City, Mo.",
+                "division": "Jr. Div.",
+                "results": [
+                    {
+                        "rank": "2",
+                        "event": "BB",
+                        "tie": true
+                    },
+                    {
+                        "rank": "6",
+                        "event": "AA"
+                    }
+                ]
+            },
+            {
+                "year": "2019",
+                "competition": "GK U.S. Classic",
+                "city": "Louisville, Ky.",
+                "division": "Jr. Div.",
+                "results": [
+                    {
+                        "rank": "2",
+                        "event": "BB"
+                    },
+                    {
+                        "rank": "5",
+                        "event": "AA"
+                    }
+                ]
+            },
+            {
+                "year": "2019",
+                "competition": "American Classic",
+                "city": "Salt Lake City, Utah",
+                "division": "Jr. Div.",
+                "results": [
+                    {
+                        "rank": "1",
+                        "event": "AA"
+                    },
+                    {
+                        "rank": "1",
+                        "event": "UB"
+                    },
+                    {
+                        "rank": "2",
+                        "event": "BB"
+                    }
+                ]
+            },
+            {
+                "year": "2018",
+                "competition": "U.S. Gymnastics Championships",
+                "city": "Boston, Mass.",
+                "division": "Jr. Div.",
+                "results": [
+                    {
+                        "rank": "2",
+                        "event": "BB",
+                        "tie": true
+                    },
+                    {
+                        "rank": "8",
+                        "event": "VT"
+                    }
+                ]
+            },
+            {
+                "year": "2018",
+                "competition": "GK U.S. Classic",
+                "city": "Columbus, Ohio",
+                "division": "Jr. Div.",
+                "results": [
+                    {
+                        "rank": "4",
+                        "event": "BB",
+                        "tie": true
+                    }
+                ]
+            },
+            {
+                "year": "2018",
+                "competition": "American Classic",
+                "city": "Salt Lake City, Utah",
+                "division": "Jr. Div.",
+                "results": [
+                    {
+                        "rank": "7",
+                        "event": "VT",
+                        "tie": true
+                    },
+                    {
+                        "rank": "9",
+                        "event": "AA"
+                    }
+                ]
+            },
+            {
+                "year": "2017",
+                "competition": "P&G Championships",
+                "city": "Anaheim, Calif.",
+                "division": "Jr. Div.",
+                "results": []
+            },
+            {
+                "year": "2017",
+                "competition": "U.S. Classic",
+                "city": "Chicago, Ill.",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "8",
+                        "event": "BB"
+                    }
+                ]
+            },
+            {
+                "year": "2016",
+                "competition": "Hopes Championships",
+                "city": "Hartford, Conn.",
+                "division": "12-13",
+                "results": [
+                    {
+                        "rank": "1",
+                        "event": "BB"
+                    },
+                    {
+                        "rank": "2",
+                        "event": "AA"
+                    },
+                    {
+                        "rank": "4",
+                        "event": "UB"
+                    },
+                    {
+                        "rank": "6",
+                        "event": "VT",
+                        "tie": true
+                    }
+                ]
+            },
+            {
+                "year": "2016",
+                "competition": "Women's Junior Olympic National Championships",
+                "city": "Fort Worth, Texas",
+                "division": "Jr. A",
+                "results": [
+                    {
+                        "rank": "2",
+                        "event": "FX",
+                        "tie": true
+                    }
+                ]
+            },
+            {
+                "year": "2015",
+                "competition": "HOPES Championships",
+                "city": "Chicago, Ill.",
+                "division": "10-11",
+                "results": [
+                    {
+                        "rank": "1",
+                        "event": "BB"
+                    },
+                    {
+                        "rank": "2",
+                        "event": "AA"
+                    },
+                    {
+                        "rank": "2",
+                        "event": "FX",
+                        "tie": true
+                    },
+                    {
+                        "rank": "6",
+                        "event": "UB"
+                    },
+                    {
+                        "rank": "8",
+                        "event": "VT"
+                    }
+                ]
+            },
+            {
+                "year": "2021",
+                "competition": "Arthur Gander Memorial",
+                "city": "Morges, Switzerland",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "3",
+                        "event": "AA"
+                    }
+                ]
+            },
+            {
+                "year": "2019",
+                "competition": "Jesolo Trophy",
+                "city": "Jesolo, Italy",
+                "division": "Jr. Div.",
+                "results": [
+                    {
+                        "rank": "2",
+                        "event": "Team"
+                    },
+                    {
+                        "rank": "2",
+                        "event": "BB"
+                    },
+                    {
+                        "rank": "3",
+                        "event": "VT"
+                    },
+                    {
+                        "rank": "8",
+                        "event": "AA"
+                    }
+                ]
+            }
+        ],
+        "facts": {
+            "Name": "Ciena Alipio",
+            "Birthdate": "3/7/2004",
+            "Program": "Women's Artistic",
+            "Level": "Senior",
+            "Current Residence": "San Jose, CA",
+            "Club": "Midwest Gymnastics Center",
+            "Head Coach": "Jess Graba & Alison Lim"
+        }
+    },
+    {
+        "results": [
+            {
+                "year": "2017",
+                "competition": "NCAA Women's Gymnastics Championships",
+                "city": "St. Louis, Mo.",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "3",
+                        "event": "Team"
+                    },
+                    {
+                        "rank": "7",
+                        "event": "FX",
+                        "tie": true
+                    }
+                ]
+            },
+            {
+                "year": "2016",
+                "competition": "NCAA Women's Gymnastics Championships",
+                "city": "Fort Worth, Texas",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "4",
+                        "event": "Team"
+                    },
+                    {
+                        "rank": "4",
+                        "event": "FX",
+                        "tie": true
+                    },
+                    {
+                        "rank": "10",
+                        "event": "AA",
+                        "tie": true
+                    }
+                ]
+            },
+            {
+                "year": "2015",
+                "competition": "NCAA Women's Gymnastics Championships",
+                "city": "Fort Worth, Texas",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "1",
+                        "event": "Team"
+                    }
+                ]
+            },
+            {
+                "year": "2013",
+                "competition": "P&G Championships",
+                "city": "Hartford, Conn.",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "3",
+                        "event": "BB"
+                    },
+                    {
+                        "rank": "6",
+                        "event": "FX"
+                    },
+                    {
+                        "rank": "7",
+                        "event": "AA"
+                    },
+                    {
+                        "rank": "7",
+                        "event": "UB"
+                    }
+                ]
+            },
+            {
+                "year": "2013",
+                "competition": "Secret U.S. Classic",
+                "city": "Chicago, Ill.",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "3",
+                        "event": "BB",
+                        "tie": true
+                    },
+                    {
+                        "rank": "5",
+                        "event": "AA"
+                    },
+                    {
+                        "rank": "6",
+                        "event": "FX"
+                    }
+                ]
+            },
+            {
+                "year": "2012",
+                "competition": "U.S. Olympic Trials",
+                "city": "San Jose, Calif.",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "7",
+                        "event": "UB"
+                    },
+                    {
+                        "rank": "8",
+                        "event": "AA"
+                    },
+                    {
+                        "rank": "8",
+                        "event": "FX"
+                    }
+                ]
+            },
+            {
+                "year": "2012",
+                "competition": "Visa Championships",
+                "city": "St. Louis, Mo.",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "7",
+                        "event": "UB"
+                    },
+                    {
+                        "rank": "8",
+                        "event": "AA"
+                    },
+                    {
+                        "rank": "8",
+                        "event": "FX"
+                    }
+                ]
+            },
+            {
+                "year": "2012",
+                "competition": "Secret U.S. Classic",
+                "city": "Chicago, Ill.",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "3",
+                        "event": "AA"
+                    },
+                    {
+                        "rank": "5",
+                        "event": "UB"
+                    },
+                    {
+                        "rank": "6",
+                        "event": "FX"
+                    },
+                    {
+                        "rank": "7",
+                        "event": "VT"
+                    },
+                    {
+                        "rank": "8",
+                        "event": "BB"
+                    }
+                ]
+            },
+            {
+                "year": "2012",
+                "competition": "American Classic",
+                "city": "Huntsville, Texas",
+                "division": "Sr. 2",
+                "results": [
+                    {
+                        "rank": "1",
+                        "event": "AA"
+                    },
+                    {
+                        "rank": "1",
+                        "event": "VT"
+                    },
+                    {
+                        "rank": "1",
+                        "event": "BB"
+                    },
+                    {
+                        "rank": "1",
+                        "event": "FX"
+                    },
+                    {
+                        "rank": "2",
+                        "event": "UB"
+                    }
+                ]
+            },
+            {
+                "year": "2011",
+                "competition": "Visa Championships",
+                "city": "Saint Paul, Minn.",
+                "division": "Jr. Div.",
+                "results": [
+                    {
+                        "rank": "3",
+                        "event": "UB"
+                    },
+                    {
+                        "rank": "7",
+                        "event": "AA"
+                    }
+                ]
+            },
+            {
+                "year": "2011",
+                "competition": "CoverGirl Classic",
+                "city": "Chicago, Ill.",
+                "division": "Jr. Div.",
+                "results": [
+                    {
+                        "rank": "5",
+                        "event": "BB",
+                        "tie": true
+                    },
+                    {
+                        "rank": "8",
+                        "event": "AA"
+                    }
+                ]
+            },
+            {
+                "year": "2010",
+                "competition": "Visa Championships",
+                "city": "Hartford, Conn.",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "6",
+                        "event": "BB"
+                    }
+                ]
+            },
+            {
+                "year": "2009",
+                "competition": "Visa Championships",
+                "city": "Dallas, Texas",
+                "division": "",
+                "results": [
+                    {
+                        "rank": "1",
+                        "event": "UB"
+                    }
+                ]
+            }
+        ],
+        "facts": {
+            "Name": "Kennedy Baker",
+            "Birthdate": "5/10/1996",
+            "Program": "Women's Artistic",
+            "Level": "Senior",
+            "Current Residence": "Atlanta, GA",
+            "Club": "Alpharetta Gymnastics Academy",
+            "Head Coach": "Kim & Chris Burdette"
+        }
+    }
+]
