@@ -20,6 +20,7 @@ const theme = createTheme({
     },
 });
 
+// TODO: want <header> outside <main>
 export default function App({ Component, pageProps }: AppProps) {
     return (
         <ThemeProvider theme={theme}>
