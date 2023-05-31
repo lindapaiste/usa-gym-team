@@ -24,8 +24,9 @@ export function createGetStaticPaths(slugs: string[]): GetStaticPaths<Params> {
         // Get the paths we want to prerender based on posts
         // In production environments, prerender all pages
         // (slower builds, but faster initial page load)
-        const paths = slugs.map((slug) => ({
-            params: { slug, post_id: slug },
+        // TODO: figure out what to do with empty club ''
+        const paths = slugs.filter(Boolean).map((slug) => ({
+            params: { slug },
         }));
 
         // { fallback: false } means other routes should 404
