@@ -3,7 +3,7 @@ import type { RowOriginal, Row, Level } from './types';
 import data from './roster.json';
 
 export const createSlug = (text: string): string =>
-    deburr(text).toLowerCase().replaceAll(' ', '-');
+    deburr(text).toLowerCase().replaceAll(' ', '-').replaceAll('\'', '');
 
 const enhanceRow = (row: RowOriginal): Row => {
     const fullName = `${row.firstName} ${row.lastName}`;
