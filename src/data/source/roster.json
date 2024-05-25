@@ -9747,10 +9747,24 @@
     "year": 2022
   },
   {
+    "firstName": "Kieryn",
+    "lastName": "Finnell",
+    "level": "Junior",
+    "club": "RGA",
+    "year": 2022
+  },
+  {
     "firstName": "Jayla",
     "lastName": "Hang",
     "level": "Junior",
     "club": "Pacific Reign Gymnastics",
+    "year": 2022
+  },
+  {
+    "firstName": "Gabrielle",
+    "lastName": "Hardie",
+    "level": "Junior",
+    "club": "Twin City Twisters",
     "year": 2022
   },
   {
@@ -9782,10 +9796,24 @@
     "year": 2022
   },
   {
+    "firstName": "Nola",
+    "lastName": "Matthews",
+    "level": "Senior",
+    "club": "Airborne Gymnastics",
+    "year": 2022
+  },
+  {
     "firstName": "Konnor",
     "lastName": "McClain",
     "level": "Senior",
     "club": "WOGA",
+    "year": 2022
+  },
+  {
+    "firstName": "Zoe",
+    "lastName": "Miller",
+    "level": "Senior",
+    "club": "World Champions Centre",
     "year": 2022
   },
   {
@@ -9810,6 +9838,13 @@
     "year": 2022
   },
   {
+    "firstName": "Joscelyn",
+    "lastName": "Roberson",
+    "level": "Senior",
+    "club": "World Champions Centre",
+    "year": 2022
+  },
+  {
     "firstName": "Audrey",
     "lastName": "Snyder",
     "level": "Junior",
@@ -9821,6 +9856,13 @@
     "lastName": "Stassi",
     "level": "Junior",
     "club": "Gym X-Treme",
+    "year": 2022
+  },
+  {
+    "firstName": "Ashlee",
+    "lastName": "Sullivan",
+    "level": "Senior",
+    "club": "WOGA",
     "year": 2022
   },
   {
@@ -9850,5 +9892,257 @@
     "level": "Junior",
     "club": "Love Gymnastics",
     "year": 2022
+  },
+  {
+    "firstName": "Isabella",
+    "lastName": "Anzola",
+    "level": "Junior",
+    "club": "Georgia Elite Gymnastics",
+    "year": 2023
+  },
+  {
+    "firstName": "Simone",
+    "lastName": "Biles",
+    "level": "Senior",
+    "club": "World Champions Centre",
+    "year": 2023
+  },
+  {
+    "firstName": "Skye",
+    "lastName": "Blakely",
+    "level": "Senior",
+    "club": "WOGA",
+    "year": 2023
+  },
+  {
+    "firstName": "Ly",
+    "lastName": "Bui",
+    "level": "Junior",
+    "club": "Great American Gymnastics Express",
+    "year": 2023
+  },
+  {
+    "firstName": "Jade",
+    "lastName": "Carey",
+    "level": "Senior",
+    "club": "Oregon State University",
+    "year": 2023
+  },
+  {
+    "firstName": "Dulcy",
+    "lastName": "Caylor",
+    "level": "Senior",
+    "club": "World Champions Centre",
+    "year": 2023
+  },
+  {
+    "firstName": "Jordan",
+    "lastName": "Chiles",
+    "level": "Senior",
+    "club": "World Champions Centre",
+    "year": 2023
+  },
+  {
+    "firstName": "Lavi",
+    "lastName": "Crain",
+    "level": "Junior",
+    "club": "Great American Gymnastics Express",
+    "year": 2023
+  },
+  {
+    "firstName": "Ally",
+    "lastName": "Damelio",
+    "level": "Junior",
+    "club": "San Mateo Gymnastics",
+    "year": 2023
+  },
+  {
+    "firstName": "Kayla",
+    "lastName": "DiCello",
+    "level": "Senior",
+    "club": "Hills",
+    "year": 2023
+  },
+  {
+    "firstName": "Amelia",
+    "lastName": "Disidore",
+    "level": "Senior",
+    "club": "Great American Gymnastics Express",
+    "year": 2023
+  },
+  {
+    "firstName": "Reese",
+    "lastName": "Esponda",
+    "level": "Junior",
+    "club": "Roots Gymnastics",
+    "year": 2023
+  },
+  {
+    "firstName": "Addison",
+    "lastName": "Fatta",
+    "level": "Senior",
+    "club": "Prestige Gymnastics",
+    "year": 2023
+  },
+  {
+    "firstName": "Kieryn",
+    "lastName": "Finnell",
+    "level": "Junior",
+    "club": "RGA",
+    "year": 2023
+  },
+  {
+    "firstName": "Addy",
+    "lastName": "Fulcher",
+    "level": "Junior",
+    "club": "Bull City Gymnastics",
+    "year": 2023
+  },
+  {
+    "firstName": "Jayla",
+    "lastName": "Hang",
+    "level": "Senior",
+    "club": "Pacific Reign Gymnastics",
+    "year": 2023
+  },
+  {
+    "firstName": "Gabrielle",
+    "lastName": "Hardie",
+    "level": "Junior",
+    "club": "Twin City Twisters",
+    "year": 2023
+  },
+  {
+    "firstName": "Madray",
+    "lastName": "Johnson",
+    "level": "Senior",
+    "club": "WOGA",
+    "year": 2023
+  },
+  {
+    "firstName": "Shilese",
+    "lastName": "Jones",
+    "level": "Senior",
+    "club": "Ascend Gymnastics Center",
+    "year": 2023
+  },
+  {
+    "firstName": "Katelyn",
+    "lastName": "Jong",
+    "level": "Senior",
+    "club": "Metroplex Gymnastics",
+    "year": 2023
+  },
+  {
+    "firstName": "Kaliya",
+    "lastName": "Lincoln",
+    "level": "Senior",
+    "club": "WOGA",
+    "year": 2023
+  },
+  {
+    "firstName": "Evelynn",
+    "lastName": "Lowe",
+    "level": "Senior",
+    "club": "Great American Gymnastics Express",
+    "year": 2023
+  },
+  {
+    "firstName": "Nola",
+    "lastName": "Matthews",
+    "level": "Senior",
+    "club": "Airborne Gymnastics",
+    "year": 2023
+  },
+  {
+    "firstName": "Jaysha",
+    "lastName": "McClendon",
+    "level": "Junior",
+    "club": "Rebound Gymnastics West",
+    "year": 2023
+  },
+  {
+    "firstName": "Zoe",
+    "lastName": "Miller",
+    "level": "Senior",
+    "club": "World Champions Centre",
+    "year": 2023
+  },
+  {
+    "firstName": "Claire",
+    "lastName": "Pease",
+    "level": "Junior",
+    "club": "WOGA",
+    "year": 2023
+  },
+  {
+    "firstName": "Hezly",
+    "lastName": "Rivera",
+    "level": "Junior",
+    "club": "WOGA",
+    "year": 2023
+  },
+  {
+    "firstName": "Joscelyn",
+    "lastName": "Roberson",
+    "level": "Senior",
+    "club": "World Champions Centre",
+    "year": 2023
+  },
+  {
+    "firstName": "Simone",
+    "lastName": "Rose",
+    "level": "Junior",
+    "club": "Pacific Reign Gymnastics",
+    "year": 2023
+  },
+  {
+    "firstName": "Izzy",
+    "lastName": "Stassi",
+    "level": "Junior",
+    "club": "Buckeye Gymnastics",
+    "year": 2023
+  },
+  {
+    "firstName": "Tiana",
+    "lastName": "Sumanasekara",
+    "level": "Senior",
+    "club": "World Champions Centre",
+    "year": 2023
+  },
+  {
+    "firstName": "Trinity",
+    "lastName": "Thomas",
+    "level": "Senior",
+    "club": "University of Florida",
+    "year": 2023
+  },
+  {
+    "firstName": "Tyler",
+    "lastName": "Turner",
+    "level": "Junior",
+    "club": "Airborne Gymnastics",
+    "year": 2023
+  },
+  {
+    "firstName": "Camie",
+    "lastName": "Westerman",
+    "level": "Junior",
+    "club": "Hills",
+    "year": 2023
+  },
+  {
+    "firstName": "Leanne",
+    "lastName": "Wong",
+    "level": "Senior",
+    "club": "University of Florida",
+    "year": 2023
+  },
+  {
+    "firstName": "Alicia",
+    "lastName": "Zhou",
+    "level": "Senior",
+    "club": "Love Gymnastics",
+    "year": 2023
   }
 ]

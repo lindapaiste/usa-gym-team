@@ -1,10 +1,11 @@
 import AlphaIndex from '@/components/AlphaIndex';
-import { clubStats, ClubStats } from '@/data/clubStats';
+import { clubStats } from '@/data/clubStats';
+import type { Named } from '@/data/types';
 import type { GetStaticProps } from 'next';
 import styles from '@/styles/Page.module.css';
 
 interface Props {
-    data: ClubStats[];
+    data: Named[];
 }
 
 export default function ClubIndex({ data }: Props) {
@@ -20,10 +21,8 @@ export default function ClubIndex({ data }: Props) {
     );
 }
 
-// TODO: minimize to just essential stats.
-
 export const getStaticProps: GetStaticProps<Props> = () => ({
     props: {
-        data: clubStats,
+        data: clubStats.map(o => ({ name: o.name, slug: o.slug })),
     },
 });

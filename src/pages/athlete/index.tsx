@@ -1,11 +1,11 @@
 import AlphaIndex from '@/components/AlphaIndex';
 import { athleteStats } from '@/data/athleteStats';
-import { AthleteStats } from '@/data/types';
+import type { AthleteStats, Named } from '@/data/types';
 import styles from '@/styles/Page.module.css';
 import type { GetStaticProps } from 'next';
 
 interface Props {
-    data: AthleteStats[];
+    data: Named[];
 }
 
 function getName(athlete: AthleteStats) {
@@ -19,17 +19,17 @@ export default function AthleteIndex({ data }: Props) {
             <AlphaIndex
                 baseUrl="/athlete/"
                 items={data}
-                renderItem={getName}
-                getName={getName}
+                renderItem={o => o.name}
             />
         </div>
     );
 }
 
-// TODO: minimize to just essential stats.
-
 export const getStaticProps: GetStaticProps<Props> = () => ({
     props: {
-        data: athleteStats,
+        data: athleteStats.map(o => ({
+            name: getName(o),
+            slug: o.slug
+        })),
     },
 });

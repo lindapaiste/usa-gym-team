@@ -3,15 +3,14 @@ import LabeledRow from '@/components/gantt/LabeledRow';
 import Stat from '@/components/stat/Stat';
 import StatRow from '@/components/stat/StatRow';
 import { getAthleteStats } from '@/data/athleteStats';
-import { Row } from '@/data/source/types';
 import {
     getYearTeam,
     personYears,
     teamMaxYear,
     teamMinYear,
-    teamYears,
+    teamYears
 } from '@/data/teamStats';
-import { TeamStats } from '@/data/types';
+import type { TeamStats } from '@/data/types';
 import styles from '@/styles/Page.module.css';
 import { orderBy, partition, sortBy, sumBy } from 'lodash';
 import Link from 'next/link';
@@ -21,7 +20,14 @@ interface Props {
     data: TeamStats;
 }
 
-export function Lineup({ data }: { data: Row[] }) {
+export interface LineupRequired {
+    firstName: string;
+    lastName: string;
+    fullName: string;
+    athleteSlug: string;
+}
+
+export function Lineup({ data }: { data: LineupRequired[] }) {
     const sorted = orderBy(
         data,
         [(o) => o.lastName, (o) => o.firstName],
@@ -44,7 +50,7 @@ export default function YearTeamPage({ data }: Props) {
     const past = athletes.map((a) => ({
         slug: a.slug,
         name: a.name,
-        count: a.total.years.filter((y) => y < year).length,
+        count: a.total.years.filter((y) => y < year).length
     }));
     const peopleYears = total.map((row) => personYears(row.athleteSlug, year));
     const [rookies, veterans] = partition(
@@ -81,8 +87,8 @@ export default function YearTeamPage({ data }: Props) {
                 </div>
             </div>
             <StatRow>
-                <Stat label="Years of Past Experience" value={pastYears} />
-                <Stat label="Years of Future Experience" value={futureYears} />
+                <Stat label='Years of Past Experience' value={pastYears} />
+                <Stat label='Years of Future Experience' value={futureYears} />
             </StatRow>
             <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
                 <div>
@@ -94,27 +100,35 @@ export default function YearTeamPage({ data }: Props) {
                     <Lineup data={junior ?? []} />
                 </div>
             </div>
-            <h3>Rookies</h3>
-            <h4>First-Time Athletes</h4>
-            <CallOutList
-                athletes={rookies}
-                getStat={(o) => o.yearsFuture}
-                renderSub={(stat) => `${stat} Future Teams`}
-            />
-            <h3>Veterans</h3>
-            <h4>Most Previous Years on Team</h4>
-            <CallOutList
-                athletes={veterans}
-                getStat={(o) => o.yearsPrevious}
-                renderSub={(stat) => `${stat} Previous Teams`}
-            />
-            <h3>Retirees</h3>
-            <h4>Last Team Appearance</h4>
-            <CallOutList
-                athletes={peopleYears.filter((o) => o.yearsFuture === 0)}
-                getStat={(o) => o.yearsPrevious}
-                renderSub={(stat) => `${stat} Previous Teams`}
-            />
+            {year === teamMinYear ? null : (
+                <>
+                    <h3>Rookies</h3>
+                    <h4>First-Time Athletes</h4>
+                    <CallOutList
+                        athletes={rookies}
+                        getStat={(o) => o.yearsFuture}
+                        renderSub={(stat) => `${stat} Future Teams`}
+                    />
+                    <h3>Veterans</h3>
+                    <h4>Most Previous Years on Team</h4>
+                    <CallOutList
+                        athletes={veterans}
+                        getStat={(o) => o.yearsPrevious}
+                        renderSub={(stat) => `${stat} Previous Teams`}
+                    />
+                </>
+            )}
+            {year === teamMaxYear ? null : (
+                <>
+                    <h3>Retirees</h3>
+                    <h4>Last Team Appearance</h4>
+                    <CallOutList
+                        athletes={peopleYears.filter((o) => o.yearsFuture === 0)}
+                        getStat={(o) => o.yearsPrevious}
+                        renderSub={(stat) => `${stat} Previous Teams`}
+                    />
+                </>
+            )}
             <h3>Career Timeline</h3>
             {sortBy(athletes, (a) => a.total.start).map((a) => (
                 <LabeledRow athlete={a} key={a.slug} />
@@ -128,5 +142,5 @@ export const getStaticPaths = createGetStaticPaths(
 );
 
 export const getStaticProps = createGetStaticProps<Props>((slug) => ({
-    data: getYearTeam(slug),
+    data: getYearTeam(slug)
 }));
