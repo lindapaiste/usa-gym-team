@@ -3,7 +3,6 @@ import LabeledRow from '@/components/gantt/LabeledRow';
 import Stat from '@/components/stat/Stat';
 import StatRow from '@/components/stat/StatRow';
 import { getAthleteStats } from '@/data/athleteStats';
-import { Row } from '@/data/source/types';
 import {
     getYearTeam,
     personYears,
@@ -11,7 +10,7 @@ import {
     teamMinYear,
     teamYears
 } from '@/data/teamStats';
-import { TeamStats } from '@/data/types';
+import type { TeamStats } from '@/data/types';
 import styles from '@/styles/Page.module.css';
 import { orderBy, partition, sortBy, sumBy } from 'lodash';
 import Link from 'next/link';
@@ -21,7 +20,14 @@ interface Props {
     data: TeamStats;
 }
 
-export function Lineup({ data }: { data: Row[] }) {
+export interface LineupRequired {
+    firstName: string;
+    lastName: string;
+    fullName: string;
+    athleteSlug: string;
+}
+
+export function Lineup({ data }: { data: LineupRequired[] }) {
     const sorted = orderBy(
         data,
         [(o) => o.lastName, (o) => o.firstName],
