@@ -10144,5 +10144,194 @@
     "level": "Senior",
     "club": "Love Gymnastics",
     "year": 2023
+  },
+  {
+    "firstName": "Isabella",
+    "lastName": "Anzola",
+    "level": "Junior",
+    "club": "Georgia Elite Gymnastics",
+    "year": 2024
+  },
+  {
+    "firstName": "Harlow",
+    "lastName": "Buddendeck",
+    "level": "Junior",
+    "club": "RGA",
+    "year": 2024
+  },
+  {
+    "firstName": "Lavi",
+    "lastName": "Crain",
+    "level": "Junior",
+    "club": "Great American Gymnastics Express",
+    "year": 2024
+  },
+  {
+    "firstName": "Addy",
+    "lastName": "Fulcher",
+    "level": "Junior",
+    "club": "Bull City Gymnastics",
+    "year": 2024
+  },
+  {
+    "firstName": "Gabrielle",
+    "lastName": "Hardie",
+    "level": "Junior",
+    "club": "Twin City Twisters",
+    "year": 2024
+  },
+  {
+    "firstName": "Greta",
+    "lastName": "Krob",
+    "level": "Junior",
+    "club": "IGN",
+    "year": 2024
+  },
+  {
+    "firstName": "Jaysha",
+    "lastName": "McClendon",
+    "level": "Junior",
+    "club": "Rebound Gymnastics West",
+    "year": 2024
+  },
+  {
+    "firstName": "Claire",
+    "lastName": "Pease",
+    "level": "Junior",
+    "club": "WOGA",
+    "year": 2024
+  },
+  {
+    "firstName": "Maliha",
+    "lastName": "Tressel",
+    "level": "Junior",
+    "club": "Twin City Twisters",
+    "year": 2024
+  },
+  {
+    "firstName": "Tyler",
+    "lastName": "Turner",
+    "level": "Junior",
+    "club": "WOGA",
+    "year": 2024
+  },
+  {
+    "firstName": "Camie",
+    "lastName": "Westerman",
+    "level": "Junior",
+    "club": "Hills",
+    "year": 2024
+  },
+  {
+    "firstName": "Simone",
+    "lastName": "Biles",
+    "level": "Senior",
+    "club": "World Champions Centre",
+    "year": 2024
+  },
+  {
+    "firstName": "Skye",
+    "lastName": "Blakely",
+    "level": "Senior",
+    "club": "WOGA",
+    "year": 2024
+  },
+  {
+    "firstName": "Jade",
+    "lastName": "Carey",
+    "level": "Senior",
+    "club": "Oregon State University",
+    "year": 2024
+  },
+  {
+    "firstName": "Dulcy",
+    "lastName": "Caylor",
+    "level": "Senior",
+    "club": "World Champions Centre",
+    "year": 2024
+  },
+  {
+    "firstName": "Jordan",
+    "lastName": "Chiles",
+    "level": "Senior",
+    "club": "World Champions Centre",
+    "year": 2024
+  },
+  {
+    "firstName": "Kayla",
+    "lastName": "DiCello",
+    "level": "Senior",
+    "club": "Hills",
+    "year": 2024
+  },
+  {
+    "firstName": "Shilese",
+    "lastName": "Jones",
+    "level": "Senior",
+    "club": "Ascend Gymnastics Center",
+    "year": 2024
+  },
+  {
+    "firstName": "Sunisa",
+    "lastName": "Lee",
+    "level": "Senior",
+    "club": "Midwest Gymnastics Center",
+    "year": 2024
+  },
+  {
+    "firstName": "Kaliya",
+    "lastName": "Lincoln",
+    "level": "Senior",
+    "club": "WOGA",
+    "year": 2024
+  },
+  {
+    "firstName": "Evelynn",
+    "lastName": "Lowe",
+    "level": "Senior",
+    "club": "Great American Gymnastics Express",
+    "year": 2024
+  },
+  {
+    "firstName": "Zoey",
+    "lastName": "Molomo",
+    "level": "Senior",
+    "club": "Metroplex Gymnastics",
+    "year": 2024
+  },
+  {
+    "firstName": "Hezly",
+    "lastName": "Rivera",
+    "level": "Senior",
+    "club": "WOGA",
+    "year": 2024
+  },
+  {
+    "firstName": "Joscelyn",
+    "lastName": "Roberson",
+    "level": "Senior",
+    "club": "World Champions Centre",
+    "year": 2024
+  },
+  {
+    "firstName": "Simone",
+    "lastName": "Rose",
+    "level": "Senior",
+    "club": "Pacific Reign Gymnastics",
+    "year": 2024
+  },
+  {
+    "firstName": "Tiana",
+    "lastName": "Sumanasekara",
+    "level": "Senior",
+    "club": "World Champions Centre",
+    "year": 2024
+  },
+  {
+    "firstName": "Leanne",
+    "lastName": "Wong",
+    "level": "Senior",
+    "club": "University of Florida",
+    "year": 2024
   }
 ]
